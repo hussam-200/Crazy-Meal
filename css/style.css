@@ -1,0 +1,247 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+font-family: 'Playfair Display', serif;
+}
+
+
+
+
+header {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 36px;
+    background-color: #B6B09F;
+    color: white;
+    margin: -21px -25px -1px -21px
+}
+
+#logo {
+  margin: 0;
+  font-size: 28px;
+}
+
+#button {
+  display: flex;
+  gap: 1rem;
+}
+
+#button button {
+  background-color: white;
+  color: #f44336;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+#button button:hover {
+  background-color: #ffe6e6;
+}
+
+.menu {
+      padding: 20px 0px 32px 0px;
+    background-color: #EAE4D5;
+    margin: 0px -24px -37px -37px;
+}
+
+ .menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.menu-item h2 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.price {
+  font-size: 16px;
+  color: #28a745;
+  font-weight: bold;
+} 
+footer{
+display: flex
+;
+    background: #B6B09F;
+    height: 73px;
+    text-align: center;
+    justify-content: center;
+    margin: 35px -23px -59px -26px;
+    color: #fff;
+}
+
+
+body {
+    background-color: #EAE4D5;
+    color: #333;
+    padding: 20px;
+    background-color: #EAE4D5;
+    background-image: url("../images/wp.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#addOrder {
+    background-color: rgba(255, 255, 255, 0.7);
+    /* background: #F2F2F2; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 36px auto 30px;
+}
+
+#addOrder .input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+#addOrder label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#addOrder input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#addOrder input:focus {
+    border-color: #007bff;
+}
+
+ Button Group 
+#addOrder .button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+#addOrder button {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+        margin: 0px 0px 0px 55px;
+    width: 165px;
+}
+
+#submit {
+    background-color: #28a745;
+    color: #fff;
+    
+}
+
+#submit:hover {
+    background-color: #218838;
+}
+
+#delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#delete:hover {
+    background-color: #c82333;
+}
+
+#listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+#listItem li {
+    display: flex;
+    /* background-color: #F2F2F2; */
+        background-color: rgba(255, 255, 255, 0.7);
+
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+#listItem li:hover {
+    transform: translateY(-3px);
+}
+
+#listItem img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.list-content {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.list-content p {
+    font-size: 1rem;
+    color: #666;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Meal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Redressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="worksp">
+        <header>
+            <h1 id="logo">Crazy Meal</h1>
+            <div id="button">
+                <a id="home" href="index.html"><button>Home</button></a>
+                <a id="menu" href="menu.html"><button>Menu</button></a>
+            </div>
+        </header>
+
+        
+        <form id="addOrder">
+            <div class="input">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+
+                <label for="price">Price:</label>
+                <input type="text" id="price"> 
+
+                <label for="image">Image URL:</label>
+                <input type="url" id="image">
+            </div>
+            <div class="button">
+                <button type="submit" id="submit">Add Item</button>
+                <button type="button" id="delete">Delete</button> 
+            </div>
+        </form>
+
+        <ul id="listItem"></ul>
+    </div>
+
+    <footer>
+        <h2 id="text">Hussam Ibrahim 2025</h2>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
