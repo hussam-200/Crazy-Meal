@@ -8,3 +8,6 @@ It took me approximately one full day to complete this assignment, including the
 
 Yes, I found some parts of the CSS styling to be challenging, especially when trying to make the layout visually appealing and ensuring that the background image stayed fixed while keeping other elements readable and responsive.
 
+##My-Crazy-Meal-Link
+
+https://hussam-200.github.io/Crazy-Meal/
